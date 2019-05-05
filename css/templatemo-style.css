@@ -115,6 +115,8 @@ button:focus { outline: none; }
 }
 
 .tm-section-1-inner { padding-top: 12%; }
+.tm-section-1-inner { padding-left: 12%; }
+.tm-section-1-inner { padding-right: 12%; }
 
 #tm-section-1 { padding-bottom: 0; }
 
@@ -139,7 +141,7 @@ button:focus { outline: none; }
 	font-size: 24px;
 }
 
-.gray-bg { background-color: #F4F4F4; }
+.gray-bg { background-color: white; }
 .dark-gray-text { color: #666666; }
 .blue-text { color: #006699; }
 .light-blue-text { color: #4EA7FF; }
