@@ -1,0 +1,190 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{hyperref}
+\usepackage{rotating, graphicx}
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{}{Jennifer V. Medina}{
+\href{mailto:jv.medina42@gmail.com}{jv.medina42@gmail.com} | 786-338-1462 \\
+\urlstyle{same}  \href{https://www.linkedin.com/in/jennifer-medina-a53a0332}{LinkedIn}
+}
+
+
+
+
+\begin{minipage}[t]{0.9\textwidth} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\runsubsection{Florida International University}
+\descript{| B.S. in Physics with Minor in Astronomy}
+\location{Expected May 2017 | Miami, FL \\ Advisor: Dr. Walter Van Hamme}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTERNSHIPS AND WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Internships and Work Experience}
+
+\runsubsection{TAURUS Research Scholar}
+\descript{| Jun 2016 - Aug 2016 }
+\location{Advisor: Dr. Andrew Mann | University of Texas, Austin, TX}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize} \item REU Program for undergraduate students pursuing a career in Astronomy.\item Developed a program in Python to accurately calculate the inclination of host stars in extra-solar planet systems in the Praesepe star cluster. \item Development involved data reduction, modeling, statistical analysis, data interpretation, and collaboration with other scientists. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Telescope Operator}
+\descript{| May 2016 - Present }
+\location{Supervisor: Dr. James Webb | Stocker Observatory, Miami, FL}
+\begin{tightemize}
+\item Work involves setting up telescopes and speaking to the public on the topic of astronomy. \item Responsibilities include maintaining the telescopes, taking images with a 24" reflector telescope, and reducing them using the MIRA imaging program. \item Work also involves teaching students how to use and set up a motored reflector telescope, and providing tours of the Observatory.\end{tightemize}
+\sectionsep
+
+\runsubsection{Undergraduate Research Assistant}
+\descript{| May 2015 - Jun 2016 }
+\location{Advisor: Dr. Walter Van Hamme | Florida International University, Miami, FL}
+\begin{tightemize}
+\item {\it KEPLER} light curves of the HAT-P 7 and HAT-P 11 binary systems were extracted from NASA archives and analyzed with GNUplot using a program developed on UNIX. \item Using this data, parameters and characteristics of the star-planet system were calculated and compared to literature values.\end{tightemize}
+\sectionsep
+
+\runsubsection{Learning Assistant: Physics I and II}
+\descript{| Aug 2014 - Jan 2017}
+\location{Supervisor: Dr. Xuewen Wang | Florida International University, Miami, FL}
+\begin{tightemize}
+\item Work involved helping students understand fundamental concepts from the lecture through experiments in the laboratory. \item Mentored groups of students and conducted one-on-one teaching. \item Other tasks included setting up equipment and preparing software for the students to use in their data analysis.\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+\descript{Andrew W. Mann, Eric Gaidos, Andrew Vanderburg, Aaron C. Rizzuto, Megan Ansdell, Jennifer Vanessa Medina, Gregory N. Mace, Adam L. Kraus, Kimberly R. Sokal} (2017) "Zodiacal Exoplanets in Time (ZEIT). IV. Seven transiting planets in the Praesepe cluster" \\ Volume 153, Number 2     \\
+Published on: {\it The Astronomical Journal (AJ)}
+\\
+\location{
+\href{http://iopscience.iop.org/article/10.1088/1361-6528/aa5276/meta}{Available Here}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\section{Skills}
+\begin{tabular}{ll}
+Programming and Software & 
+
+Python, 
+\LaTeX, 
+HTML, 
+Tableu, 
+ServiceNow,
+Qualtrix,\\
+ &
+
+FORTRAN, 
+Microsoft Office, 
+GNUplot, 
+R, 
+Matlab \\
+
+OS & 
+
+
+Windows 
+iOS, 
+LINUX \\
+
+Technical &
+
+Data Analysis, 
+Image Reduction, 
+Statistical Interpretation, 
+Problem Solving \\
+
+Languages & 
+English (Fluent),
+Spanish (Fluent),
+French (Some)
+\end{tabular}
+
+
+
+
+
+
+\end{minipage} 
+
+\end{document}
