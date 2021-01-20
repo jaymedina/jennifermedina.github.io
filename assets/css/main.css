@@ -2604,7 +2604,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -3077,8 +3077,8 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-color: #ffffff;
+				background-image: url("../../images/bg.jpg"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3087,7 +3087,7 @@ input, select, textarea {
 				padding: 4em 4em 6em 4em;
 				position: relative;
 				text-align: center;
-				width: 100%;
+				width: 40%;
 			}
 
 				#footer .icons {
