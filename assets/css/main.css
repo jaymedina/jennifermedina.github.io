@@ -2445,7 +2445,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 0.5px #efefef;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #63a4d6;
+			color: #63a4d6 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2604,7 +2604,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 25%;
+		width: 29%;
 	}
 
 		#header > * {
@@ -2633,14 +2633,14 @@ input, select, textarea {
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			font-size: 0.95em;
 			line-height: 1.75em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 10.25em;
 		}
 
 /* Footer */
